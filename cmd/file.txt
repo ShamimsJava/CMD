@@ -1,0 +1,50 @@
+*****************************
+**** Md. Shamim Sarker ******
+*****************************
+
+# To change the command prompt title
+title [any string]
+example: title Md. Shamim Sarker
+help: help title
+
+# To change the prompt
+prompt [text]
+prompt (for back privious prompt)
+example: prompt shamim@sarker$g
+help: help prompt
+
+# To clear command screen
+cls
+example: cls (hit enter)
+
+# Navigating different folder
+cd.. (for back privious folder)
+cd [folder name] (go forward folder)
+cd/ (back to main drive)
+d: (go to d drive)
+
+# Copy ip configuration to clipboard
+ipconfig|clip
+ipconfig (see the ip configuration)
+
+# List of command
+F7
+
+# Quick edit mode
+--> right click on title bar
+--> properties
+--> options
+--> check quick edit mode
+--> ok
+
+# Copy file from a location to another location
+copy [from directory] [to directory]
+example: copy "Video Songs"\"Salman Khan"\"Tumaka Chaai - 360p.mp4" E:
+
+# Remove shortcut virus
+del *.lnk (after run as administrator)
+attrib -s -r -h *.* /s /d /l
+
+# Exit from command prompt
+exit
+
