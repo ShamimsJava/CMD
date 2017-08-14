@@ -1,0 +1,44 @@
+*******************************
+***** Md. Shamim Sarker *******
+*******************************
+
+$$ ls : available file in this directory without hidden file.
+$$ ls -al : available file in this directory with hidden file.
+$$ git init : git initialization. Open a hidden repository. Single time for one project.
+$$ touch shamim.txt : if I want to open a file.
+$$ vim new.txt : creating new file and writing something in bash editor.
+	* to ready for writing press Insert
+	* Esc for going below operation
+	* :w save the writing
+	* :q back to previous and back to log page
+	* :wq save and back 
+$$ git status : To show tracked file or untracked file.
+$$ git config core.autocrlf true : if crlf related problem arise.
+$$ git add new.txt : adding new file which we want to tracked and stage.
+$$ git rm --cached new.txt : for unstage file. (no need to remember)
+$$ git commit -m "add some text" : commit for some change text. 
+$$ git commit -m "add some text" shamim.txt : commit for specific file.
+$$ git commit -m "both files are modified" new.txt shamim.txt : commit for both files.
+$$ git commit -am "all files are modified" : commit for all files.
+$$ git checkout -- new.txt : discard recent task from file. (no need to remember)
+$$ git reset HEAD new.txt : to unstage change. (no need to remember)
+$$ git diff : to see last modified data.
+$$ git diff HEAD : to see last modified data after soft checkout.
+$$ git log : to see all modification and back for press q.
+$$ git log new.txt : to see only file log.
+$$ git show a583becb69 : to show specific day canged.
+$$ git checkout a583becb69 : to see that time state of project.
+$$ git checkout a583becb69 new.txt : if we want previous state of a specific file.
+$$ cat new.txt : to see full content of file.
+$$ git checkout master : to return last commit position of the project.
+$$ git checkout master -f : to return last commit position if I checkout only one file.
+$$ git reset --soft 9f9364514 : reset till specific log softly. go back keep change.
+$$ git reset --hard 9f9364514 : reset till specific log hardly. go back no keeping change.
+$$ git reflog : to see all log reference after hard reset.
+$$ git reset  HEAD@{2} : rescue the hard reset content and again hard reset form actual position.
+$$ git commit --amend : we amend after commit.
+
+$$ git remote add origin https://shamimsjava@gitlab.com/shamimsjava/IDB.git : for remote add before pushing.
+$$ git push origin master : pushing file to git server.
+$$ git pull origin master : pulling new task develped by other group members.
+$$ git clone https://shamimsjava@gitlab.com/shamimsjava/IDB.git : cloning other project. But firstly initialization is must. 
