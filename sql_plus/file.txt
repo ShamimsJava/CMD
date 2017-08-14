@@ -1,0 +1,16 @@
+**************************
+*** Md. Shamim Sarker ****
+**************************
+
+# Show all table in a schema
+select tname from tab;
+
+# Others
+show all;
+show pagesize;
+show linesize;
+set pagesize 500;
+set linesize 200;
+
+# Clear the screen
+cl scr (cl = clear, scr = screen) (may be or not)
