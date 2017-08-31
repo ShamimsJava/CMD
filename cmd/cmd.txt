@@ -48,3 +48,14 @@ attrib -s -r -h *.* /s /d /l
 # Exit from command prompt
 exit
 
+# Creating a file and write there
+copy con filename.extension
+some dummy text
+ctrl + z
+
+2nd system
+echo some dummy text >shihab.txt
+
+3rd system (Create and edit file)
+notepad shahin.txt
+

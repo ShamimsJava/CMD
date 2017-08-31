@@ -14,3 +14,7 @@ set linesize 200;
 
 # Clear the screen
 cl scr (cl = clear, scr = screen) (may be or not)
+
+# Create file and edit file
+spool shamim.txt
+edit shamim.txt
