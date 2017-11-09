@@ -1,9 +1,10 @@
-********************************
-****Important Shortcut Keys*****
-********************************
+				********************************
+				****Important Shortcut Keys*****
+				********************************
 
 1. Ctrl + Shift + C OR Ctrl + /		: Add/Remove comment lines;
-2. psvm		: public static void main(String[] args){} // press tab
-3. St		: String
-4. sout		: System.out.println("");
-5. Alt + Mouse Wheel	: Zoom text in / out
+2. psvm					: public static void main(String[] args){} // press tab
+3. St					: String
+4. sout					: System.out.println("");
+5. Alt + Mouse Wheel			: Zoom text in / out
+6. Ctrl + Shift + MouseClick		: Edit with multiple cursor
